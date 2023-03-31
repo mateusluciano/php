@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Me livrando da maldição</title>
+    <title>Dia!</title>
 </head>
 <body>
-    <h1>
-        <?php 
-            print "Olá, Mundo!!! \u{1F30E}";
-        ?>
-    </h1>
-    <p>Vamos tentar nos livrar da maldição!</p>
+    <h1>Exemplo de PHP</h1>
+    <?php 
+        date_default_timezone_set("America/Sao_Paulo");
+        echo "Hoje é dia " . date("d/m/Y");
+        echo "<br>E a hora atual é " . date("G:i:s T")
+    ?>
 </body>
 </html>

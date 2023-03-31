@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Me livrando da maldição</title>
+    <title>Testando Scripts PHP</title>
 </head>
 <body>
-    <h1>
-        <?php 
-            print "Olá, Mundo!!! \u{1F30E}";
-        ?>
-    </h1>
-    <p>Vamos tentar nos livrar da maldição!</p>
+    <h1>Testando PHP</h1>
+    <?php 
+        $nome = "Mateus Luciano";
+        print "<p>O meu nome é $nome</p>";
+        phpinfo();
+    ?>
+    <?= "CursoemVídeo" ?>
 </body>
 </html>
