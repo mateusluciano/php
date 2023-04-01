@@ -33,7 +33,7 @@
         echo "O valor da variável é $num!"; */
 
         $v = 300;
-        $valor = "trezentos"
+        $valor = "trezentos";
         var_dump($v);
         var_dump($valor);
     ?>
