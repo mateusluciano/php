@@ -8,6 +8,24 @@
 </head>
 <body>
     <h1>Teste de tipos primitivos</h1>
+    <ol>
+        <li>DOuBLE QUOTED</li>
+            <p>Aspas duplas ""</p>
+            <p>Concatenação de strings com ponto ( . )</p>
+            <p>Nas aspas duplas, há interpretação do conteúdo!</p>
+            <p><small>Exemplo: Quando colocado o código de um emoticon</small></p>
+
+        <li>SINGLE QUOTED</li>
+            <p>Aspas simples ''</p>
+            <p>Concatenação de strings com ponto ( . )</p>
+            <p>Nas aspas simples, <strong>NÃO HÁ</strong> interpretação do conteúdo!</p>
+        <li>Heredoc</li>
+
+
+        <li>Nowdoc</li>
+
+
+    </ol>
     <?php 
         // 0x = Hexadecimal  0b = Binário  0 = Octal
 
