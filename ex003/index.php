@@ -20,10 +20,13 @@
             <p>Nas aspas simples, <strong>NÃO HÁ</strong> interpretação do conteúdo!</p>
 
         <li>Heredoc</li>
-
+            <p>Tu pode colocar echo e após uma seqência de três <, ou seja, <<< e após uma palavra. No final utilize a mesma palavra para fechar o "comando"!</p>
+            <p>Tudo que houver nesse espaço, será exibido, inclusive com os espaçamentos utilizados!</p>
 
         <li>Nowdoc</li>
-
+            <p>Tu pode colocar echo e após uma seqência de três <, ou seja, <<< e após uma palavra entre <strong>aspas simples</strong>. No final utilize a mesma palavra para fechar o "comando" e sem aspas simples!</p>
+            <p>Tudo que houver nesse espaço, será exibido, inclusive com os espaçamentos utilizados!</p>
+            <p><strong>Porém não haverá análise do que está escrito! Então variáveis, unicodes e afins não funcionarão!</strong></p>
 
     </ol>
     <p>Sequência de escape:</p>
