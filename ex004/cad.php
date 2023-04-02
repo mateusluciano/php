@@ -13,9 +13,9 @@
     <main>
         <?php
             var_dump($_REQUEST); // JUNÇÃO DAS SUPER-GLOBAIS - $_GET $_POST $_COOKIES
-            $nome = $_REQUEST{"nome"}
-            $sob = $_REQUEST{"sob"}
-            echo "<p>Olá, $nome $sob!"
+            $nome = $_REQUEST{"nome"};
+            $sob = $_REQUEST{"sob"};
+            echo "<p>Olá, $nome $sob!";
         ?>
     </main>
 </body>
