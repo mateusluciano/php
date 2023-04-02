@@ -13,8 +13,8 @@
     <main>
         <?php
             var_dump($_GET); // JUNÇÃO DAS SUPER-GLOBAIS - $_GET $_POST $_COOKIES
-            $nome = $_GET{"nome"};
-            $sob = $_GET{"sob"};
+            $nome = $_GET["nome"];
+            $sob = $_GET["sob"];
             echo "<p>Olá, $nome $sob!</p>";
         ?>
     </main>
