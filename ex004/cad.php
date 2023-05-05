@@ -13,11 +13,12 @@
     </header>
     <main>
         <?php
-            // var_dump($_GET); // JUNÇÃO DAS SUPER-GLOBAIS - $_GET $_POST $_COOKIES
-            $nome = $_REQUEST["nome"];
-            $sob = $_REQUET["sob"];
-            echo "<p>Olá, $nome $sob!</p>";
+            $nome = $_POST["nome"] ?? "Sem nome";
+            $sobrenome = $_POST["sobrenome"] ?? "Sem sobrenome";
+            echo "<p>É um prazer te conhecer, <strong>$nome $sobrenome</strong>! Este é o meu site!</p>";
         ?>
+        <!--Voltando-->
+        <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
     </main>
 </body>
 </html>

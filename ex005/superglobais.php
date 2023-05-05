@@ -11,7 +11,6 @@
     <main>
         <pre>
             <?php 
-
                 setcookie("dia-da-semana", "SEGUNDA", time() + 3600);
                 
                 session_start();
