@@ -12,17 +12,21 @@
     </header>
     <main>
         <?php 
-            $conn = mysqli_connect($host, $user, $password, $database);
-
-            if (!$conn) {
-                die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
-            }
-            
+            require_once "conexao.php";
         ?>
 
         <p>Testes com Banco de Dados</p>
 
+        <?php 
+            $nome = $_POST["nome"];
+            $idade = $_POST["number"];
 
+            echo"<p>Olá, $nome! Você tem $idade anos de idade!</p>";
+        ?>
+
+        <?php 
+            $sql = "INSERT INTO nomeidade (nome, idade) VALUES ('$nome', '$idade')";
+        ?>
     </main>
 </body>
 </html>

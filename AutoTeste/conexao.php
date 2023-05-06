@@ -8,7 +8,7 @@ $database = "clientes"; // nome do banco de dados
 $mysqli = new mysqli($hostname, $usuario, $password, $database);
 
 // Verifica se houve erro na conexão
-if (!$mysqli->errno) {
+if ($mysqli->connect_errno) {
     echo"Erro na conexão";
 }else {
     echo"Conexão bem sucedida!";
